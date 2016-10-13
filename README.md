@@ -6,12 +6,6 @@ Install Webpack
 npm install webpack -g
 ```
 
-Install sass-loader
-
-```sh
-npm install sass-loader node-sass webpack --save-dev
-```
-
 Install dependencies
 ```sh
 npm install
@@ -20,5 +14,6 @@ npm install
 # Run Application
 
 ```sh
-webpack-dev-server --progress --colors
+webpack -w --progress
 ```
+Open the index.html file in the browser.
